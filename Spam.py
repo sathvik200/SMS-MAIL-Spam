@@ -6,6 +6,9 @@ import nltk
 from nltk.stem.porter import PorterStemmer
 import sklearn
 
+nltk.download('punkt')
+nltk.download('stopwords')
+
 ps = PorterStemmer()
 
 
